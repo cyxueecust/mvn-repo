@@ -39,7 +39,11 @@
 	<repositories>
 		<repository>
 			<id>mvn-repo</id>
+<<<<<<< HEAD
 			<url>https://raw.github.com/ansjsun/mvn-repo/master</url>
+=======
+			<url>https://raw.github.com/ansjsun/mvn-repo/gh-pages</url>
+>>>>>>> 17a3150add102cadc619a11883d497bd990852ce
 		</repository>
 	</repositories>
 
@@ -47,7 +51,11 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.ansj</groupId>
+<<<<<<< HEAD
 			<artifactId>tree-split</artifactId>
+=======
+			<artifactId>tree_split</artifactId>
+>>>>>>> 17a3150add102cadc619a11883d497bd990852ce
 			<version>1.0.1</version>
 		</dependency>
 	</dependencies>
@@ -81,7 +89,11 @@
 					<message>deploy-${project.artifactId}:${project.version}~${maven.build.timestamp}</message>  <!-- git commit message -->
 					<noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
 					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
+<<<<<<< HEAD
 					<branch>refs/heads/master</branch>                       <!-- remote branch name -->
+=======
+					<branch>refs/heads/gh-pages</branch>                       <!-- remote branch name -->
+>>>>>>> 17a3150add102cadc619a11883d497bd990852ce
 					<includes>
 						<include>**/*</include>
 					</includes>

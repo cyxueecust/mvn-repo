@@ -63,7 +63,11 @@
 					<message>deploy-${project.artifactId}:${project.version}~${maven.build.timestamp}</message>  <!-- git commit message -->
 					<noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
 					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
+<<<<<<< HEAD
 					<branch>refs/heads/master</branch>                       <!-- remote branch name -->
+=======
+					<branch>refs/heads/gh-pages</branch>                       <!-- remote branch name -->
+>>>>>>> 17a3150add102cadc619a11883d497bd990852ce
 					<includes>
 						<include>**/*</include>
 					</includes>
