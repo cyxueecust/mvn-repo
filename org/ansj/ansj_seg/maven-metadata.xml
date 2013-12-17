@@ -3,10 +3,10 @@
   <groupId>org.ansj</groupId>
   <artifactId>ansj_seg</artifactId>
   <versioning>
-    <release>0.9.1</release>
+    <release>1.0.alpha</release>
     <versions>
-      <version>0.9.1</version>
+      <version>1.0.alpha</version>
     </versions>
-    <lastUpdated>20131121131336</lastUpdated>
+    <lastUpdated>20131217072013</lastUpdated>
   </versioning>
 </metadata>
